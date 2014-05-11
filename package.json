@@ -1,7 +1,7 @@
 {
   "name": "pull-delayed-stream",
   "description": "create a sink stream, and start it later",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/pull-delayed-stream",
   "repository": {
     "type": "git",
