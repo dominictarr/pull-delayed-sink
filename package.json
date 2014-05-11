@@ -1,11 +1,11 @@
 {
-  "name": "pull-lazy",
-  "description": "",
+  "name": "pull-delayed-stream",
+  "description": "create a sink stream, and start it later",
   "version": "0.0.1",
-  "homepage": "https://github.com/dominictarr/pull-lazy",
+  "homepage": "https://github.com/dominictarr/pull-delayed-stream",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dominictarr/pull-lazy.git"
+    "url": "git://github.com/dominictarr/pull-delayed-stream.git"
   },
   "dependencies": {},
   "devDependencies": {
