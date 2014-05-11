@@ -16,7 +16,7 @@ pull(pull.values(feed), d = delayed())
 setTimeout(function () {
   feed.push(1, 2, 3)
 
-  l.start(pull.collect(function (err, ary) {
+  d.start(pull.collect(function (err, ary) {
     if(err) throw err
     t.deepEqual(ary, [1, 2, 3])
     t.end()
