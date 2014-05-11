@@ -2,7 +2,7 @@
 
 return a pull-stream sink, that won't start reading until you say.
 
-# Example
+## Example
 
 ``` js
 var delayed = require('pull-delayed-sink')
@@ -27,6 +27,16 @@ setTimeout(function () {
 
 `pull.defer` is a similar function, but it's a source instead of a sink.
 
+
+## API
+
+### d = delayed(); d.start(sink)
+
+create a fake sink stream, and then start it when you have the sink you want.
+
+### d = delayed(sink); d.start()
+
+make a sink delay, and then allow it to start.
 
 ## License
 
